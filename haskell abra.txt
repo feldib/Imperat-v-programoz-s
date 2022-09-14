@@ -1,0 +1,1 @@
+teglalap 16 8 <|> szin (teglalap 16 6) kek <|> teglalap 16 5 <|> eltol (szin (sokszog [(-1.5,1.5), (0,-0.5), (1.5,1.5)]) kek <|> szin (sokszog [(-1.5,0), (0,2), (1.5,0)]) kek) (0,-0.7)

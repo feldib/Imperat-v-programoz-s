@@ -1,0 +1,15 @@
+inc :: Integral a => a -> a; inc a = a+1
+
+double :: Integral a => a -> a; double a = a*2
+
+max3 :: Integral a => a -> a -> a -> a; max3 a b c = if max a b == a && max a c == a; then a; else if max a b == b && max b c == b; then b; else c
+
+pancake :: Integral a => a -> a -> a; pancake n k = div k n
+
+beer :: Integral a => a -> a -> a -> a; beer n m k = div (mod k n) m
+
+seven1 :: Int; seven1 = inc (inc (inc (inc (inc (inc (inc 0))))))
+
+seven2 :: Int; seven2 = inc(inc(inc(double(double (inc 0)))))
+
+seven3 :: Int; seven3 = inc(double(inc(double(inc(0)))))
